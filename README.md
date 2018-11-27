@@ -119,8 +119,10 @@ apt-get install -y build-essential libboost-all-dev python-dev cmake
   
   
 ### step3 安装 anaconda  
+```
 mkdir /tmp/conda/   
 cd /tmp/conda/   
+```
 下载 Miniconda by Python2 ，安装，然后删除下载的包  
 ```
 wget -t 0 https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/Miniconda2-latest-Linux-x86_64.sh   
